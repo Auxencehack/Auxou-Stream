@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "esModuleInterop": false,
+    "target": "esnext",
+    "allowSyntheticDefaultImports": true,
+  },
+  "include": [
+    "src/**/*.ts",
+    "node_modules/@types/puppeteer/index.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
